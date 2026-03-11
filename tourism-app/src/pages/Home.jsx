@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Star, Globe, ShieldCheck, MapPin } from 'lucide-react';
 
 const mockPopular = [
-  { id: 1, name: 'Santorini Sunset', location: 'Greece', img: 'https://images.unsplash.com/photo-1570077188670-e3a8d69ac5f1?q=80&w=600&auto=format&fit=crop' },
+  { id: 1, name: 'Paris Romance', location: 'France', img: 'https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=600&auto=format&fit=crop' },
   { id: 4, name: 'Bali Escapade', location: 'Indonesia', img: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=600&auto=format&fit=crop' },
   { id: 3, name: 'Swiss Alps', location: 'Switzerland', img: 'https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?q=80&w=600&auto=format&fit=crop' }
 ];

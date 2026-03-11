@@ -4,9 +4,9 @@ import { MapPin, Clock, CalendarDays, IndianRupee } from 'lucide-react';
 const mockPackages = [
   {
     id: 1,
-    name: 'Santorini Sunset Retreat',
-    destination: 'Santorini, Greece',
-    img: 'https://images.unsplash.com/photo-1570077188670-e3a8d69ac5f1?q=80&w=600&auto=format&fit=crop',
+    name: 'Paris Romance Experience',
+    destination: 'Paris, France',
+    img: 'https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=600&auto=format&fit=crop',
     price: 154000,
     duration: 5,
     agent: 'Wanderlust Tours'
