@@ -19,7 +19,7 @@ This is a complete Frontend implementation of the Tourism Management System, bui
 ## How to Run
 1. Open terminal and navigate to the `tourism-app` folder:
    ```bash
-   cd "d:\Workspace\tf pro\tourism-app"
+   cd "tourism-app"
    ```
 2. Install dependencies (already executed):
    ```bash
