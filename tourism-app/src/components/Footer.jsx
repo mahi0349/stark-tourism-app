@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Compass, Mail, Phone, MapPin } from 'lucide-react';
 
 const Footer = () => {
@@ -19,10 +20,10 @@ const Footer = () => {
         <div style={{ flex: 1, minWidth: 200, textAlign: 'left' }}>
           <h4 style={{ marginBottom: '1rem', color: '#fff' }}>Quick Links</h4>
           <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
-            <li><a href="/" style={{ color: 'var(--text-secondary)' }}>Home</a></li>
-            <li><a href="/packages" style={{ color: 'var(--text-secondary)' }}>Destinations</a></li>
-            <li><a href="/dashboard" style={{ color: 'var(--text-secondary)' }}>Booking Agent</a></li>
-            <li><a href="#" style={{ color: 'var(--text-secondary)' }}>Privacy Policy</a></li>
+            <li><Link to="/" style={{ color: 'var(--text-secondary)' }}>Home</Link></li>
+            <li><Link to="/about" style={{ color: 'var(--text-secondary)' }}>About Us</Link></li>
+            <li><Link to="/packages" style={{ color: 'var(--text-secondary)' }}>Destinations</Link></li>
+            <li><Link to="/contact" style={{ color: 'var(--text-secondary)' }}>Contact Support</Link></li>
           </ul>
         </div>
 

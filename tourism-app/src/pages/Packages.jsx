@@ -6,7 +6,7 @@ const mockPackages = [
     id: 1,
     name: 'Santorini Sunset Retreat',
     destination: 'Santorini, Greece',
-    img: 'https://images.unsplash.com/photo-1613395877344-13d4a3215430?q=80&w=600&auto=format&fit=crop',
+    img: 'https://images.unsplash.com/photo-1570077188670-e3a8d69ac5f1?q=80&w=600&auto=format&fit=crop',
     price: 154000,
     duration: 5,
     agent: 'Wanderlust Tours'
