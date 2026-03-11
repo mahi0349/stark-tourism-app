@@ -4,10 +4,12 @@ import { Lock, Mail, User as UserIcon } from 'lucide-react';
 
 const Login = () => {
   const [isLogin, setIsLogin] = useState(true);
+  const [role, setRole] = useState('user');
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    localStorage.setItem('userRole', role);
     navigate('/dashboard'); // simulate login
   };
 
@@ -46,6 +48,19 @@ const Login = () => {
               <Lock size={16} /> Password
             </label>
             <input type="password" className="form-control" placeholder="••••••••" required />
+          </div>
+
+          <div className="form-group" style={{ marginBottom: '2rem' }}>
+            <label className="form-label">Account Type</label>
+            <select 
+              className="form-control" 
+              value={role} 
+              onChange={(e) => setRole(e.target.value)}
+              style={{ padding: '0.8rem 1rem', background: 'rgba(255, 255, 255, 0.05)' }}
+            >
+              <option value="user" style={{ color: '#000' }}>Traveler (User)</option>
+              <option value="admin" style={{ color: '#000' }}>Agency Admin</option>
+            </select>
           </div>
 
           <button type="submit" className="btn btn-primary" style={{ width: '100%', padding: '1rem' }}>
